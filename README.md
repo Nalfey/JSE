@@ -22,14 +22,14 @@ It looks for the NQ, +1, +2, +3, +4 versions that you have for a specific job an
 
 ## Examples ##
 
-**//jse relic BST**  -  checks for upgradable BST Relic armor
-![jse_relic_BST](https://i.imgur.com/zMMdS1P.jpeg)
-
 **//jse af WHM**  -  checks for upgradable WHM Artifact armor
 ![jse_af_WHM](https://imgur.com/NrQDOJn.jpeg)
 
 **/jsemats af WHM**  -  displays needed materials to upgrade WHM Artifact armor
 ![jsemats_af_WHM](https://i.imgur.com/wyjHUQk.jpeg)
+
+**//jsemats relic BST**  -  displays needed materials to upgrade BST Relic armor
+![jsemats_relic_BST](https://i.imgur.com/zMMdS1P.jpeg)
 
 **//jsemats af RDM**  -  displays needed materials to upgrade RDM Artifact armor
 ![jsemats_af_RDM](https://i.imgur.com/EOfzfUW.jpeg)
