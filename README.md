@@ -15,7 +15,7 @@ It looks for the NQ, +1, +2, +3, +4 versions that you have for a specific job an
 - Specifically for AF Cards, this will check for the gear on the current logged in character and check for cards on all charcters/mules that have an existing data file. ( you need to load the addon at least once on the mule for it to create a data file)
 
 **`//jsecurrency`**
-- Displays tracked currencies for upgrades and their values ( Rem's Chapters 6-10, Gallimauffry, Apollyon and Temenos Units )
+- Displays tracked currencies for upgrades and their values ( Rem's Chapters, Gallimauffry, Apollyon and Temenos Units )
 
 **`//jsehelp`**
 - Displays the available commands
