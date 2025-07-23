@@ -22,7 +22,6 @@ It looks for the NQ, +1, +2, +3, +4 versions that you have for a specific job an
 
 ## Examples ##
 
-```
 **//jse relic BST**  -  checks for upgradable BST Relic armor
 ![jse_relic_BST](https://i.imgur.com/zMMdS1P.jpeg)
 
@@ -44,7 +43,6 @@ It looks for the NQ, +1, +2, +3, +4 versions that you have for a specific job an
 **//jsehelp**  -  displays all commands
 ![jsehelp](https://i.imgur.com/pXHzTlf.jpeg)
 
-```
 
 ### v1.00
 * First release.
