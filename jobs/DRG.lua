@@ -54,7 +54,7 @@ return {
             }
         },
         {
-            {"Vishap F. G.", "Vishap Finger Gauntlets", "Vis. Fng. Gaunt.". "Vish. Fin."}, 
+            {"Vishap F. G.", "Vishap Finger Gauntlets", "Vis. Fng. Gaunt.", "Vish. Fin."}, 
             12,
             {
                 ["+1"] = {
