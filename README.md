@@ -43,6 +43,8 @@ It looks for the NQ, +1, +2, +3, +4 versions that you have for a specific job an
 **//jsehelp**  -  displays all commands
 ![jsehelp](https://i.imgur.com/pXHzTlf.jpeg)
 
+### v1.01
+* Minor display updates and syntax fix for DRG gear.
 
 ### v1.00
 * First release.
