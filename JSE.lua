@@ -28,7 +28,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 _addon.name    = 'JSE'
 _addon.author  = 'Nalfey'
-_addon.version = '1.00'
+_addon.version = '1.01'
 _addon.commands = {'jse'}
 
 require('chat')
@@ -519,12 +519,12 @@ function find_cards(job, armor_type)
                     -- Get the units requirement (could be Apollyon or Temenos Units)
                     for _, mat in ipairs(materials["+4"]) do
                         if mat.name:match("Units$") then  -- Match any type of Units
-                            log((base_name .. ' +3'):color(255) .. ': Can upgrade to ' .. '+4':color(158) .. ' with ' .. tostring(mat.count):color(158) .. ' ' .. mat.name .. ' ' .. '(currently +3)':color(158))
+                            log((base_name .. ' +3'):color(255) .. ': Can upgrade to ' .. '+4':color(158) .. ' with ' .. tostring(mat.count):color(158) .. ' ' .. mat.name)
                             break
                         end
                     end
                 else
-                    log((base_name .. ' +3'):color(255) .. ': ' .. '(currently +3)':color(158))
+                    log((base_name .. ' +3'):color(255))
                 end
             elseif found_plus2 then
                 if armor_type == 'ARTIFACT' then
@@ -535,23 +535,23 @@ function find_cards(job, armor_type)
                     elseif index == 4 then plus2_cards = 12
                     elseif index == 5 then plus2_cards = 9 end
                     total_cards = total_cards + plus2_cards
-                    log((base_name .. ' +2'):color(255) .. ': Can upgrade to ' .. '+3':color(158) .. ' with ' .. tostring(plus2_cards):color(158) .. ' cards ' .. '(currently +2)':color(158))
+                    log((base_name .. ' +2'):color(255) .. ': Can upgrade to ' .. '+3':color(158) .. ' with ' .. tostring(plus2_cards):color(158) .. ' cards ')
                 else
-                    log((base_name .. ' +2'):color(255) .. ': ' .. '(currently +2)':color(158))
+                    log((base_name .. ' +2'):color(255))
                 end
             elseif found_plus1 then
                 if armor_type == 'ARTIFACT' then
                     total_cards = total_cards + cards_needed
-                    log((base_name .. ' +1'):color(255) .. ': Can upgrade all the way to ' .. '+3':color(158) .. ' with ' .. tostring(cards_needed):color(158) .. ' cards ' .. '(currently +1)':color(158))
+                    log((base_name .. ' +1'):color(255) .. ': Can upgrade all the way to ' .. '+3':color(158) .. ' with ' .. tostring(cards_needed):color(158) .. ' cards ')
                 else
-                    log((base_name .. ' +1'):color(255) .. ': ' .. '(currently +1)':color(158))
+                    log((base_name .. ' +1'):color(255))
                 end
             elseif found_nq then
                 if armor_type == 'ARTIFACT' then
                     total_cards = total_cards + cards_needed
-                    log(base_name:color(255) .. ': Can upgrade to ' .. '+1':color(158) .. ' with ' .. tostring(cards_needed):color(158) .. ' cards ' .. '(currently NQ)':color(158))
+                    log(base_name:color(255) .. ': Can upgrade to ' .. '+1':color(158) .. ' with ' .. tostring(cards_needed):color(158) .. ' cards ')
                 else
-                    log(base_name:color(255) .. ': ' .. '(currently NQ)':color(158))
+                    log(base_name:color(255))
                 end
             else
                 log(base_name:color(255) .. ': Not found')
@@ -666,12 +666,12 @@ function find_cards_all(job, armor_type)
                     -- Get the units requirement (could be Apollyon or Temenos Units)
                     for _, mat in ipairs(materials["+4"]) do
                         if mat.name:match("Units$") then  -- Match any type of Units
-                            log((base_name .. ' +3'):color(255) .. ': Can upgrade to ' .. '+4':color(158) .. ' with ' .. tostring(mat.count):color(158) .. ' ' .. mat.name .. ' ' .. '(currently +3)':color(158))
+                            log((base_name .. ' +3'):color(255) .. ': Can upgrade to ' .. '+4':color(158) .. ' with ' .. tostring(mat.count):color(158) .. ' ' .. mat.name)
                             break
                         end
                     end
                 else
-                    log((base_name .. ' +3'):color(255) .. ': ' .. '(currently +3)':color(158))
+                    log((base_name .. ' +3'):color(255))
                 end
             elseif found_plus2 then
                 if armor_type == 'ARTIFACT' then
@@ -682,23 +682,23 @@ function find_cards_all(job, armor_type)
                     elseif index == 4 then plus2_cards = 12
                     elseif index == 5 then plus2_cards = 9 end
                     total_cards = total_cards + plus2_cards
-                    log((base_name .. ' +2'):color(255) .. ': Can upgrade to ' .. '+3':color(158) .. ' with ' .. tostring(plus2_cards):color(158) .. ' cards ' .. '(currently +2)':color(158))
+                    log((base_name .. ' +2'):color(255) .. ': Can upgrade to ' .. '+3':color(158) .. ' with ' .. tostring(plus2_cards):color(158) .. ' cards ')
                 else
-                    log((base_name .. ' +2'):color(255) .. ': ' .. '(currently +2)':color(158))
+                    log((base_name .. ' +2'):color(255))
                 end
             elseif found_plus1 then
                 if armor_type == 'ARTIFACT' then
                     total_cards = total_cards + cards_needed
-                    log((base_name .. ' +1'):color(255) .. ': Can upgrade all the way to ' .. '+3':color(158) .. ' with ' .. tostring(cards_needed):color(158) .. ' cards ' .. '(currently +1)':color(158))
+                    log((base_name .. ' +1'):color(255) .. ': Can upgrade all the way to ' .. '+3':color(158) .. ' with ' .. tostring(cards_needed):color(158) .. ' cards ')
                 else
-                    log((base_name .. ' +1'):color(255) .. ': ' .. '(currently +1)':color(158))
+                    log((base_name .. ' +1'):color(255))
                 end
             elseif found_nq then
                 if armor_type == 'ARTIFACT' then
                     total_cards = total_cards + cards_needed
-                    log(base_name:color(255) .. ': Can upgrade to ' .. '+1':color(158) .. ' with ' .. tostring(cards_needed):color(158) .. ' cards ' .. '(currently NQ)':color(158))
+                    log(base_name:color(255) .. ': Can upgrade to ' .. '+1':color(158) .. ' with ' .. tostring(cards_needed):color(158) .. ' cards ')
                 else
-                    log(base_name:color(255) .. ': ' .. '(currently NQ)':color(158))
+                    log(base_name:color(255))
                 end
             else
                 log(base_name:color(255) .. ': Not found')
