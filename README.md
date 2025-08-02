@@ -6,10 +6,13 @@ It looks for the NQ, +1, +2, +3, +4 versions that you have for a specific job an
 ## Commands
 
 **`//jse [ af | relic | empy ] <JOB>`**
-- Check equipement and available upgrades for a specific job
+- Check equipement and available upgrades for a specific job, displays upgrade materials you already have / need to augment the pecific job equipements
 
-**`//jsemats [ af | relic | empy ] <JOB>`** 
-- Check upgrade materials you already have / need to augment the pecific job equipements
+**`//jsetrack [ af | relic | empy ] <JOB>`** 
+- same as the basic //jse command but also displays in an extra dragable window 
+
+**`//jsetrack [ hide | show ] `**
+- to hide/show the extra //jsetrack window  
 
 **`//jseall af <JOB>`** 
 - Specifically for AF Cards, this will check for the gear on the current logged in character and check for cards on all charcters/mules that have an existing data file. ( you need to load the addon at least once on the mule for it to create a data file)
@@ -22,26 +25,31 @@ It looks for the NQ, +1, +2, +3, +4 versions that you have for a specific job an
 
 ## Examples ##
 
-**//jse af WHM**  -  checks for upgradable WHM Artifact armor
-![jse_af_WHM](https://imgur.com/NrQDOJn.jpeg)
+**/jse af WHM**  -  displays needed materials to upgrade WHM Artifact armor
+![jse_af_WHM](https://i.imgur.com/wyjHUQk.jpeg)
 
-**/jsemats af WHM**  -  displays needed materials to upgrade WHM Artifact armor
-![jsemats_af_WHM](https://i.imgur.com/wyjHUQk.jpeg)
+**//jse relic BST**  -  displays needed materials to upgrade BST Relic armor
+![jse_relic_BST](https://i.imgur.com/zMMdS1P.jpeg)
 
-**//jsemats relic BST**  -  displays needed materials to upgrade BST Relic armor
-![jsemats_relic_BST](https://i.imgur.com/zMMdS1P.jpeg)
-
-**//jsemats af RDM**  -  displays needed materials to upgrade RDM Artifact armor
-![jsemats_af_RDM](https://i.imgur.com/EOfzfUW.jpeg)
+**//jse af RDM**  -  displays needed materials to upgrade RDM Artifact armor
+![jse_af_RDM](https://i.imgur.com/EOfzfUW.jpeg)
 
 **//jseall af PUP**  -  check for P. Cards on all your mules 
 ![jseall_af_PUP](https://i.imgur.com/YQGXnXD.jpeg)
+
+**//jsetrack af WHM**  -  displays results in a dragable window
+![jsetrack_af_WHM](https://i.imgur.com/P5p3x90.jpeg)
 
 **//jsecurrency**  -  displays relevent currencies
 ![jsecurrency](https://i.imgur.com/fYggKX1.jpeg)
 
 **//jsehelp**  -  displays all commands
 ![jsehelp](https://i.imgur.com/pXHzTlf.jpeg)
+
+### v1.10
+* Added a new command //jsetrack that displays the results in a dragable window. 
+* Merged the //jse and //jsemats into a single command.
+* Typo fix for SCH gear names and Maliya. Coral Orb.
 
 ### v1.01
 * Minor display updates and syntax fix for DRG gear.
