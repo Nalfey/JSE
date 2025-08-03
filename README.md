@@ -28,23 +28,19 @@ It looks for the NQ, +1, +2, +3, +4 versions that you have for a specific job an
 **/jse af WHM**  -  displays needed materials to upgrade WHM Artifact armor
 ![jse_af_WHM](https://i.imgur.com/wyjHUQk.jpeg)
 
-**//jse relic BST**  -  displays needed materials to upgrade BST Relic armor
-![jse_relic_BST](https://i.imgur.com/zMMdS1P.jpeg)
-
-**//jse af RDM**  -  displays needed materials to upgrade RDM Artifact armor
-![jse_af_RDM](https://i.imgur.com/EOfzfUW.jpeg)
+**//jsetrack af WHM**  -  displays results in a dragable window
+![jsetrack_af_WHM](https://i.imgur.com/P5p3x90.jpeg)
 
 **//jseall af PUP**  -  check for P. Cards on all your mules 
 ![jseall_af_PUP](https://i.imgur.com/YQGXnXD.jpeg)
 
-**//jsetrack af WHM**  -  displays results in a dragable window
-![jsetrack_af_WHM](https://i.imgur.com/P5p3x90.jpeg)
-
 **//jsecurrency**  -  displays relevent currencies
 ![jsecurrency](https://i.imgur.com/fYggKX1.jpeg)
 
-**//jsehelp**  -  displays all commands
-![jsehelp](https://i.imgur.com/pXHzTlf.jpeg)
+
+### v1.11
+* Syntax fix for some item name contractions.
+* Extra tracking window code split into a separate file.
 
 ### v1.10
 * Added a new command //jsetrack that displays the results in a dragable window. 
